@@ -44,6 +44,92 @@ const Home = () => {
         >
           View All Pujas
         </Link>
+        <div className="flex justify-center space-x-5 py-5">
+          <div className="h-[400px] w-96 rounded-md shadow-2xl ">
+            <img
+              className="rounded-sm h-56 w-full"
+              src="https://divyadarshanm.in/wp-content/uploads/2024/12/Shri-Kaal-Bhairav-__Aapda-Haran-Yagya-Batuk-Bhairav-Stotra-Kaal-Bhairav-__Ashtakam-and-Maha-Aarti.jpg"
+              alt=""
+            />
+            <p className="font-semibold text-sm flex justify-center ">
+              Kaal Bhairav Temple Kashi
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Kaal Bhairav Ashtkam and
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Maha Aarti Shree Kaal Bhairav
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Temple, Kashi
+            </p>
+
+            <div className="flex justify-center py-4">
+              <Link
+                to="/participate"
+                className="bg-[#FF8718]   text-[#FFF] font-bold  rounded-sm top-3 py-2 px-3"
+              >
+                Book Now
+              </Link>
+            </div>
+          </div>
+          <div className="h-[400px] w-96 rounded-md shadow-2xl ">
+            <img
+              className="rounded-sm h-56 w-full"
+              src="https://divyadarshanm.in/wp-content/uploads/2024/12/Shri-Kaal-Bhairav-__Aapda-Haran-Yagya-Batuk-Bhairav-Stotra-Kaal-Bhairav-__Ashtakam-and-Maha-Aarti.png"
+              alt=""
+            />
+            <p className="font-semibold text-sm flex justify-center ">
+              Mrityunjaya Mahadev Temple Kashi
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Special Mahamrityunjaya
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Mantra Jaap Rudrabhishek
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Kartik Somwar, Kashi
+            </p>
+
+            <div className="flex justify-center py-4">
+              <Link
+                to="/participate"
+                className="bg-[#FF8718]   text-[#FFF] font-bold  rounded-sm top-3 py-2 px-3"
+              >
+                Book Now
+              </Link>
+            </div>
+          </div>{" "}
+          <div className="h-[400px] w-96 rounded-md shadow-2xl ">
+            <img
+              className="rounded-sm h-56 w-full"
+              src="https://divyadarshanm.in/wp-content/uploads/2024/12/Shri-Kaal-Bhairav-__Aapda-Haran-Yagya-Batuk-Bhairav-Stotra-Kaal-Bhairav-__Ashtakam-and-Maha-Aarti-2.png"
+              alt=""
+            />
+            <p className="font-semibold text-sm flex justify-center ">
+              Ganga Ghat Kashi
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Makar sankranti Special
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              Brahman Bhojan, Gau Seva
+            </p>
+            <p className="text-xl text-[#FF8718] flex justify-center font-semibold">
+              and Deep Daan in Kashi
+            </p>
+
+            <div className="flex justify-center py-4">
+              <Link
+                to="/participate"
+                className="bg-[#FF8718]   text-[#FFF] font-bold  rounded-sm top-3 py-2 px-3"
+              >
+                Book Now
+              </Link>
+            </div>
+          </div>{" "}
+        </div>
       </div>
       <Footer />
     </div>
