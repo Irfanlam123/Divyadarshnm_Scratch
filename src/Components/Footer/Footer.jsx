@@ -33,9 +33,9 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center py-6 sm:py-8 md:py-10 lg:py-12 space-x-4 sm:space-x-6 md:space-x-8">
+      <div className="flex flex-wrap justify-center py-6 sm:py-8 md:py-10 lg:py-12 space-x-1 sm:space-x-1 md:space-x-1">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/profile.php?id=61567243536469&rdid=Gdqq2tHghgC2LsUx&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GyZqVai5B%2F#"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-all"
@@ -67,7 +67,7 @@ const Footer = () => {
           <FaLinkedin size={24} />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/thedivyadarshanm"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center w-12 h-12 bg-pink-600 text-white rounded-full hover:bg-pink-500 transition-all"
@@ -81,28 +81,19 @@ const Footer = () => {
           <ul className="text-blue-400 space-y-4 py-3">
             <li>
               {" "}
-              <Link
-                to="/Cancellation and Refund Policy"
-                className="hover:underline"
-              >
+              <Link to="/CancelRefund" className="hover:underline">
                 Cancellation and Refund Policy
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link
-                to="/Cancellation and Refund Policy"
-                className="hover:underline"
-              >
+              <Link to="/PrivacyPolicy" className="hover:underline">
                 Privacy Policy
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link
-                to="/Cancellation and Refund Policy"
-                className="hover:underline"
-              >
+              <Link to="/TermCondition" className="hover:underline">
                 Terms And Condition
               </Link>{" "}
             </li>

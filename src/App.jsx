@@ -6,6 +6,10 @@ import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+import TermCondition from "./Components/TermCondition/TermCondition";
+import CancelRefund from "./Components/CancelAndRedundPolicy/CancelRefund";
+
 const App = () => {
   return (
     <Router>
@@ -15,15 +19,10 @@ const App = () => {
         <Route path="/puja" element={<Puja />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route
-          path="/Cancellation and Refund Policy"
-          element={<h2>cancel part</h2>}
-        />
-        <Route path="/Privacy Policy" element={<h2>Privacy Policy</h2>} />
-        <Route
-          path="/Terms And Condition"
-          element={<h2>Terms And Condition</h2>}
-        />
+
+        <Route path="/CancelRefund" element={<CancelRefund />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/TermCondition" element={<TermCondition />} />
       </Routes>
     </Router>
   );
